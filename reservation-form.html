@@ -1,0 +1,81 @@
+<html lang="en">
+<html>
+<head>
+  <title>Air Reservation System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="Style.css">
+<script src="JS.js"></script>
+</head>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+<h1 class="logo"> <a href="index.html"> AIR RESERVATION </a></h1>  
+</div>
+<br>
+          <div class="col-md-6">
+              <a href="flight.no.html"         class="last" style="text-decoration: none; color: lightgreen;  padding-left: 10px; "> Flight Status </a>
+              <a href="webCheckIn.html"        class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Web-Check in</a>
+              <a href="cancelReservation.html" class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Cancel Reservation</a>
+          </div>
+  </div>
+</div><br><br><br>
+<body class="reservation-form">
+<div class="animation" id="single" >
+    <img src="single.jpg" alt="single" class="single">
+   <H1 style="position: absolute;
+    color: black !important;
+    font-weight: bolder !important;
+    text-align: center !important;
+    font-family:  Merriweather,Georgia,Cambria,Times New Roman,Times,serif !important; padding-left: 50%; padding-top: 50px;">RESERVATION FORM</H1>
+    <div class="row" style="width: 1340px;">
+    <div class=" col-md-6">
+    <h1 class="text"> WE PROVIDE BEST SERVICES THROUGH OUT THE COUNTRY. </h1> <br>
+    <h3 class="pera">Due to pandemic condition through out the country, All the passengers and crew members has to follow precautions, 
+      Safety is always first. </h3>
+</div>
+<div class="col-md-6 ">
+  <form action="checkOut.html" name="reservationForm" id="reserve" method="POST" onsubmit="return fillOut()">
+ <center><div class="reserve-form">
+   <div class="pad-form">
+   <label for="" class="reserve-label"> First Name </label>
+   <input type="text" class="input-c" placeholder="First Name" name="name" required><br><br>
+   <label for="" class="reserve-label"> Last Name </label>
+   <input type="text" class="input-c" placeholder="Last Name"  required><br><br>
+   <label for="" class="reserve-label"> Date of birth </label>
+   <input type="date" class="emergency" style="float: right;" required><br><br>
+   <label for="" class="reserve-label"> Gender</label> 
+   <select class="input-c pad" name="gender" id="genders"  required> 
+    <option value=""> -- Gender -- </option>
+    <option value="male">Male</option>  
+    <option value="female">Female</option>  
+    <option value="others">Others</option>  
+   </select>   <br><br>
+   <label for="" class="reserve-label"> Seat Request </label>
+   <select class="" name="" class="#" id="Seat"  > 
+     <option value="">-- Select Seat --</option>
+   </select><br><br><br>
+   <h4 style=" color: black !important;
+   font-weight: bolder !important;
+   text-align: center !important;
+   font-family:  Merriweather,Georgia,Cambria,Times New Roman,Times,serif !important;"> EMERGENCY CONTACT DETAILS </h4><br><br>
+   <label for="" class="reserve-label" style="color: black;"> Email Address </label>
+   <input type="text" class="emergency" placeholder="First Name" required><br><br>
+   <label for="" class="reserve-label" style="color: black;"> Contact Number </label>
+   <input type="text" class="emergency" placeholder="First Name" name="num" required><br><br><br><br>
+   <button style="float: left; background: rgb(250, 143, 143); border: none; height:50px; width: 120px; " onclick="clearData()"> Cancel </button>
+   <button style="float: right; background: lightgreen; border: medium; height:50px; width: 150px;"> Proceed to check out </button><br><br>
+ </div> 
+</div>  
+</form>
+</div>  
+</div>
+</div>
+</center>
+
+
+</body>
+</html>

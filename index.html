@@ -1,0 +1,169 @@
+<html lang="en">
+<html>
+<head>
+  <title>Air Reservation System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="Style.css">
+<script src="JS.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="col-xs-6 col-md-6">
+      <h1 class="logo"> <a href="index.html"> AIR RESERVATION </a></h1>  
+    </div>
+    </div>
+    <br>
+          <div class="col-md-6">
+              <a href="flight.no.html"         class="last" style="text-decoration: none; color: lightgreen;  padding-left: 10px; "> Flight Status </a>
+              <a href="webCheckIn.html"        class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Web-Check in</a>
+              <a href="cancelReservation.html" class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Cancel Reservation</a>
+          </div>
+      </div>
+    </div><br><br><br>
+    <div class="slider">
+     
+        <div class="toggle">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          
+          <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }
+          </script>
+          
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="slider">
+    <div class="col-xs-12 col-md-12">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>       
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" id="img">
+          <div class="item active">
+       <img src="moon.jpg" alt="Los Angeles" style="width:100%;"> 
+       <h3> CHINA </h3>
+            
+    
+          </div>
+    
+          <div class="item" id="img">
+            <img src="Para.jpg" alt="Chicago" style="width:100%;">HASSAn
+          </div>
+        
+          <div class="item" id="img">
+            <img src="Sun.jpg" alt="New york" style="width:100%;">
+          </div>
+          
+            <div class="item" id="img">
+              <img src="p.jpg"  style="width:100%;" id="img">
+              <button class="btn" style="background:peru;"> Button </button>
+            </div>
+           
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+        <button class="loginn" > Login </button> <button class="register"> Register </button>
+        <center><div class="form1" id="105">
+          <form action="reservation.html" id="f2">
+            <div class="imgcontainer">
+            <img src="profile.JPG" class="hassan" alt="">
+            <button class="close" id="close"> X </button>
+          </div>
+
+        <label for="Email" class="form"  > <b> Email Address </b> </label> <br>
+        <input type="text"  placeholder="Email Address" class="in" id="email" required> <br> <br>
+
+        <label for="pass" class="form"> <b> Password </b>  </label> <br>
+        <input type="password"  placeholder="Password" class="in" id="pass" required> <br> <br>
+
+       <button class="btn-submit" id="b2"> Login </button><br><br>
+        <label for="remember me" class="form">
+        <input type="checkbox"> Remember Me  
+        </label> 
+        <span> Forget <a href="#"> Password ?</a> </span> <br><br><br>
+        </center>
+
+
+
+        <center><div class="form2   " id="106">
+          <form action="reservation.html" id="f2" >
+            <div class="imgcontainer">
+            <img src="profile.JPG" class="hassan" alt="">
+            <button class="close"> X </button>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class=" col-md-6">
+                <label for="fname" class="form"> First Name </label>
+                <input type="text" placeholder="First Name"  id="fname" class="input" required>  <br><br>
+
+                <label for="Email" class="form" > <b> Email Address </b> </label> <br>
+               <input type="text" placeholder="Email Address"  id="email" class="input" required> <br><br>
+
+                <label for="Pass" class="form"> <b> Password </b>  </label> <br>
+                <input type="password"  placeholder=" Password" class="input" id="pass" required> <br> <br>
+                
+              </div>
+            </div>
+            <div class="column">
+            <div class=" col-md-6">
+              <label for="lname" class="form"> Last Name </label><br>
+              <input type="text" placeholder="Last Name"  id="lname" class="input" required> <br><br>
+              
+              <label for="Number" class="form" > <b> Contact Number </b> </label> 
+              <input type="text" placeholder="Contact Number" id="contact" class="input" required > <br><br>
+
+              <label for="Pass" class="form"> <b> Confirm Password </b>  </label> <br>
+              <input type="password" placeholder=" Confirm Password" id="copass" class="input" required><br><br>
+              
+            </div>
+            </div>  
+            <label for="gender" class="form" > Gender </label> <br>
+           <span class="gender">Male <input type="radio"  id="gender" required></span>
+           <span  class="gender"> Female <input type="radio" id="gender" required> </span><br><br>
+        <button class="btn-submit"   id="b1" > Register  </button>
+      
+        </center>
+        </div>
+      </div>
+      </form>
+              </div>
+              
+      </form> 
+      </div>
+    </div>
+    </div>
+  
+  
+  </body>
+  </html>
+  

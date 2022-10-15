@@ -1,0 +1,352 @@
+/* logo */
+.logo a {
+  color: azure;
+}
+.logo  :hover{
+  color: lightgreen !important;
+}
+
+/*slider*/
+#img{
+  height: 700px;
+  
+}
+
+.logo{
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.slider{
+padding-top: 40px;
+}
+.background-image{
+background-image: url('Plane.jpg');
+height: 500px;
+}
+body{
+  background: black;
+}
+.slider{
+  position: relative;
+}
+
+/* login form*/
+.loginn{
+  position: absolute;
+  top: 5%;
+  width: 10% !important;
+  background: lightgreen !important;
+  border: medium;
+  color: black;
+  margin-left: 30%;
+  height: 50px ;
+
+}
+.form1{
+  background: transparent;
+  width: 25%;
+  height: 500px;
+  border: 0.5px solid;
+  display: none;
+  position: absolute;
+  top: 20%;
+  margin-left: 37.5%;
+}
+.hassan{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 30px;
+}
+.form{
+ float: left !important;
+ padding: 0 0 0 32px;
+ color:black;
+}
+.in{
+  width: 80%; 
+  height: 50px;
+  padding-left: 15px;
+}
+.btn-submit{
+  background: lightgreen;
+  border: medium;
+  width: 80%;
+  border:medium ;
+  height:50px ;
+}
+.close{
+    float: right;
+}
+@media only screen and (max-width: 800px){
+  .form1 {
+    width: 80%;
+   
+}   
+} 
+.register{
+  position: absolute;
+  top: 5%;
+  margin-left: 60%;
+}
+
+/* registration form*/
+body{
+  background: black;
+}
+.form2{
+  position: absolute;
+  top: 15%;
+  background: transparent;
+  width: 50%;
+  height: 600px;
+  border: 0.5px solid;
+  display: none;
+  margin-left: 25%;
+}
+.hassan{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 30px;
+}
+.formr{
+ float: left !important;
+ padding: 0 0 0 32px;
+}
+.input{
+  width: 80%; 
+  height: 50px;
+  padding: 0 0 0 15px;
+}
+
+.form{
+  float: left;
+  
+}
+.Register{
+  background: rgb(250, 143, 143);
+  border: medium;
+  width: 10%;
+  height:50px ;
+  float: left;
+  margin-right: 10% !important;
+}
+.close{
+    float: right;
+    color: black;
+}
+@media only screen and (max-width: 800px){
+  .form1 {
+    width: 80%;
+   
+}   
+} 
+.gender{
+  color: black;
+  float: left;
+  padding: 0 0 0 32px;
+}
+#b1{
+  height: 50px;
+  width: 40%;
+  background:rgb(250, 143, 143); 
+  margin-top: 20px !important;
+  float: left;
+}
+/*reservation*/
+.slider{
+  position: relative;
+}
+.system{
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  border: solid;
+  top: 15% ;
+  margin-left: 10%;
+}
+.head{
+  background:transparent lightgreen !important;
+  width: 100% !important;
+  height: 10%;
+  text-align: center;
+}
+.journy-type{
+  margin: 0 0 0 10px;
+}
+#d{
+  float: left !important;
+}
+.Departure{
+  float: left;
+}
+#option{
+  padding-left: 20px;
+  width: 50%;
+  align-items: center;
+  margin-left: 3%;
+  border: normal;
+}
+#option option{
+  text-align: center;
+}
+.calender{
+  width: 50% !important;
+  margin-left: 3%;
+  border: normal;
+  padding-left: 2%;
+}
+.passengers{
+  margin: 0 0 0 0;
+  width: 70%;
+}
+.return{
+  display: none;
+}
+.left{
+  margin: 0 0 0 14px;
+}
+.cabin{
+  width: 100%;
+}
+.optiom{
+  margin-left: 10px;
+}
+.height{
+  height: 25px;
+}
+.multicity{
+  display: none;
+}
+.align{
+  margin: 0 0 0 0 !important;
+  float: left !important;
+}
+.find{
+  background: lightgreen;
+  border: none;
+  height: 40px;
+  width: 38% !important;
+  float: right;
+  margin: 0 21.5%;
+}
+.journy{
+  margin-left: 50px !important;
+}
+.consider{
+  margin-top: -2%;
+}
+/* reservation form */
+.reservation-form{
+  width: 1340px;
+  height:700px;
+  padding-left: 5px;
+  position: relative;
+}
+.single{
+  width: 100%;
+   position: absolute;
+   animation: myMove 5s infinite;
+}
+.text{
+  position: absolute;
+  top: 400px;
+  font-family: Merriweather,Georgia,Cambria,"Times New Roman",Times,serif;;
+  color:white;
+  font-weight: 900;
+}
+.pera{
+  position: absolute;
+  color: lightgreen;
+  font-weight: bold;
+  top: 500px;
+  font-family: Merriweather,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+.reserve-form{
+  position: absolute;
+  top: 130px;
+  background-color: transparent;
+  width: 80%;
+  border: 0.5px solid;
+}
+.pad-form{
+  padding: 60px;
+}
+.input-c{
+  width: 70% !important;
+  height: 30px;
+  margin-left:50px !important;
+  padding: 0 0 0 15px;
+  float: right;
+}
+.reserve-label{
+  float: left;
+}
+ .heading{
+   position: absolute;
+   color: white !important;
+   font-weight: bolder !important;
+   text-align: center !important;
+   font-family:  Merriweather,Georgia,Cambria,"Times New Roman",Times,serif !important;
+ }
+.select{
+  background: rgb(250, 143, 143);
+  height: 50px !important;
+  border: medium;
+  width: 140px !important;
+}
+.pad{
+  margin-left:71px !important ;
+}
+.reserve-form2{
+  position: absolute;
+  top: 570px;
+}
+#Seat{
+float: right;
+width: 70% !important;
+height: 30px;
+padding-left: 15px;
+}
+.emergency{
+  float: right;
+width: 70% !important;
+height: 30px;
+padding-left: 15px;
+}
+/* Check out form */
+.background{
+  position: absolute;
+  height: 100%;
+}
+.on{
+position: relative;
+background: black;
+top: 20px;
+height: 90%;
+width: 80%;
+opacity: 0.2;
+}
+.heading{
+position: relative;
+bottom: 550px;
+width: 80%;
+background: white ;
+color: black !important;
+}
+.checkOut-form{
+  position: relative;
+  bottom: 500px;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+.second{
+  position: relative;
+  bottom: 850px;
+  padding-left: 15%;
+  padding-right: 20%;
+}
+.last:hover{
+color:  rgb(250, 143, 143) !important;
+}

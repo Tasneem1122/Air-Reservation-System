@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <title>Air Reservation System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="Style.css">
+  <script src="JS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="col-xs-6 col-md-6">
+        <h1 class="logo"> <a href="index.html"> AIR RESERVATION </a></h1>  
+            </div>
+          </div>
+          <br>
+          <div class="col-md-6">
+              <a href="flight.no.html"         class="last" style="text-decoration: none; color: lightgreen;  padding-left: 10px; "> Flight Status </a>
+              <a href="webCheckIn.html"        class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Web-Check in</a>
+              <a href="cancelReservation.html" class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Cancel Reservation</a>
+          </div>
+      </div>
+      </div><br><br><br>
+      <img src="window.jpg" style="width: 700px; height: 800px; position: absolute;" alt="">
+      <form action="#" id="flightStatus">
+      <div class="status" style="position: relative; top: 300px; padding-left: 20%;">
+        <h3><b> Flight Status </b></h3><br>
+       <label for="flight.No" style="color: black;"> Flight Number </label><br>
+       <input type="text" placeholder="Flight Number" style="padding-left: 3px;" required><br><br><br>
+       <label for="flight.No" style="color: black;"> Departure Date </label><br>
+       <input type="text" placeholder="Departure Date" style="padding-left: 3px;" required><br><br><br>
+       <button style="border: none; background: lightgreen;"> Check Status </button>
+       <button style="margin-left: 2%; border: none; background:  rgb(250, 143, 143);" onclick="flightStatus()"> Cancel </button>
+      </div>
+      </form>
+</body>

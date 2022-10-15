@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+  <title>Air Reservation System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="Style.css">
+  <script src="JS.js"></script>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="column">
+            <div class="col-xs-6 col-md-6">
+        <h1 class="logo"> <a href="index.html"> AIR RESERVATION </a></h1>  
+            </div>
+          </div>
+          <br>
+          <div class="col-md-6">
+              <a href="flight.no.html"         class="last" style="text-decoration: none; color: lightgreen;  padding-left: 10px; "> Flight Status </a>
+              <a href="webCheckIn.html"        class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Web-Check in</a>
+              <a href="cancelReservation.html" class="last" style="text-decoration: none; color: lightgreen;  padding-left: 50px;"> Cancel Reservation</a>
+          </div>
+      </div>
+      </div><br><br><br>
+      <img class="background" style="width: 100%; height: 100%;" src="Background.jpg" alt="">
+
+      
+<div class="contanier">
+    <center>
+      <form id="clear">
+          <div class="on"></div>
+        <div class="heading"> CHECK OUT </div>
+        <div class="checkOut-form">
+          <div class="row">
+              <div class="col-md-6">
+             <h3 style="color: white; float: left;"> Billing Address </h3> <br><br><br>
+             <label for="name"  style="float: left;  color: white; float: left;"> Full Name </label><br>
+             <input type="text" style="width: 300px; padding-left: 5px; margin-right: 200px;" placeholder="Full Name" required><br><br>
+             <label for="city"  style="float: left;  color: white;"> Email </label><br>
+             <input type="text" style="width: 300px; padding-left: 5px; margin-right: 200px;" placeholder="Email" required><br><br>
+             <label for="adr"   style="float: left;  color: white;">   Address </label><br>
+             <input type="text" style="width: 300px; padding-left: 5px; margin-right: 200px;" placeholder="Address" required><br><br>
+             <label for="city"  style="float: left;  color: white;"> City</label><br>
+             <input type="text" style="width: 300px; padding-left: 5px; margin-right: 200px;" placeholder="City" required>
+              </div>
+
+              <div class="col-md-6">
+                <h3 style="color: white; padding-left: 45px;"> Payment </h3>
+                <label for="name"  style="margin-left: 50px;  color: white;"> Accepted Card </label><br>
+                <i class="fa fa-cc-visa" style="color:white; padding-left: 15%;"></i>
+                <i class="fa fa-cc-amex" style="color:blue; padding-left: 2%;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red; padding-left: 2%;"></i>
+                <i class="fa fa-cc-discover" style="color:orange; padding-left: 2%;"></i><br><br>
+
+                <label for="adr"   style="margin-left: 45px; color: white;">   Name on card </label><br>
+                <input type="text" style="width: 300px; padding-left: 5px; margin-left: 190px;" placeholder="Name" required><br><br>
+                <label for="city"  style="margin-left: 85px;  color: white;"> Cradit card number </label>
+                <input type="text" style="width: 300px; padding-left: 5px;  margin-left: 190px;" placeholder="1111-2222-3333-4444" required><br><br>
+                <label for="city"  style="margin-left: 30px;  color: white;"> Exp Month </label>
+                <input type="text" style="width: 300px; padding-left: 5px;  margin-left: 190px;" placeholder="November" required>
+              </div>
+          </div>
+        </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
+    <div class="second">
+     <div class="row">
+         <div class="col-md-3">
+             <label for="state" style="color: white; float: left;"> State </label><br>
+             <input style="float: left; width: 100%; padding-left: 5px;" type="text" placeholder="NY" required> </div>
+             <div class="col-md-3">
+             <label for="state" style="color: white; float: left;"> Zip </label><br>
+             <input style="float: left; width: 100%; padding-left: 5px;" type="text" placeholder="1001" required> 
+         </div>
+         <div class="col-md-3">
+            <label for="state" style="color: white; float: left;"> Exp Year </label><br>
+            <input style="float: left; width: 100%; padding-left: 5px;" type="text" placeholder="2020" required> 
+        </div>
+        <div class="col-md-3">
+            <label for="state" style="color: white; float: left;"> CVV </label><br>
+            <input style="width: 100%; float:left; padding-left: 5px;" type="text" placeholder="352"> 
+        </div>
+        </div><br><br>
+        <div class="row">
+        <div class="col-md-6">
+        <button style="color: black; background:  lightgreen; border: none; width: 50%; height: 5%;"> Make Payment </button>
+        </div>
+        <div class="col-md-6">
+            <button style="color: black; background:  rgb(250, 143, 143); border: none; width: 50%; height: 5%;" onclick="out()"> Cancel </button>
+            </div>
+        </div>
+    </div>
+      </form>
+    </center>
+</body>
+</html>
